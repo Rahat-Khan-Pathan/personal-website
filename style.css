@@ -1,0 +1,191 @@
+body
+{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+p
+{
+    color: dimgray;
+    font-size: 15px;
+    text-align: justify;
+}
+.hello
+{
+    font-size: 30px;
+    color: black;
+    font-weight: 450;
+    margin-bottom: 0px;
+}
+.name
+{
+    font-size: 50px;
+    color: #fc5a8d;
+    font-weight: 600;
+    margin-top: 10px;
+    font-family: 'Poppins',sans-serif;
+}
+.top-banner
+{
+    height: 700px;
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.solve-text
+{
+    margin-bottom: 40px;
+}
+#top-text
+{
+    padding-left: 15%;
+    padding-top: 10%;
+}
+.half-width
+{
+    float: left;
+    width: 40%;
+}
+.top-banner img
+{
+    width: 110%;
+}
+.biography img
+{
+    width: 110%;
+    margin-left: 100px;
+}
+.hire-button
+{
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(45deg, #fc5a8d, #e40078);
+    border-radius: 10px;
+    font-weight: 500;   
+    color: white
+}
+.biography
+{
+    height: 700px;
+    background-image: url("images/biography-bg.png");
+    background-size: cover;
+    background-position: center;
+}
+.biography .bio
+{
+    font-size: 30px;
+    color: black;
+    font-weight: 450;
+}
+.biography p
+{
+    margin-bottom: 40px;
+}
+#bio-text
+{
+    margin-left: 200px;
+    margin-top: 150px;
+}
+.latest-work
+{
+    height: 550px;
+    text-align: center;
+    background-image: url("images/latest-work-bg.png");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.my-work
+{
+    float: left;
+}
+.my-work img
+{
+    width: 20%;
+    padding: 20px;
+}
+.latest-work h3
+{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+    padding: 6% 0 3% 0;
+    margin: 0;
+}
+.bottom
+{
+    height: 500px;
+}
+.last
+{
+    background-image: url("images/footer-bg.png");
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+}
+.last h3
+{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    font-size: 33px;
+    font-weight: 520;
+    margin: 0px;
+}
+.last h6
+{
+    text-align: center;
+    font-size: 17px;
+    margin: 0px;
+    font-weight: 600;
+}
+.last p
+{
+    text-align: center;
+    margin: 0px;
+    padding: 5px;
+    font-size: 13px;
+    font-weight: 500;
+}
+#last-text
+{
+    font-size: 17px;
+    font-weight: 500;
+    color: black;
+    padding-top: 45px;
+}
+.message
+{
+    text-align: center;
+    margin-top: 8%;
+}
+.message-button
+{
+    text-decoration: none;
+    padding: 60px 150px;
+    background-image: linear-gradient(45deg, #fc5a8d, #e40078);
+    border-radius: 10px; 
+    color: white;
+    position: relative;
+}
+.mail-text
+{
+    font-size: 13px;
+    font-weight: 400;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 30%;
+    left: 50%;
+}
+.mail
+{
+    font-size: 20px;
+    position: relative;
+    font-weight: 500;
+    top: 12px;
+}
+footer p
+{
+    text-align: center;
+    font-size: 17px;
+}
