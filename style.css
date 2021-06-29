@@ -31,7 +31,6 @@ p
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding-right: 5%;
 }
 .solve-text
 {
@@ -42,6 +41,11 @@ p
     padding-left: 15%;
     padding-top: 10%;
 }
+#top-img
+{
+    padding-right: 5%;
+    padding-top: 2%;
+}
 .half-width
 {
     float: left;
@@ -49,12 +53,11 @@ p
 }
 .top-banner img
 {
-    width: 110%;
+    width: 100%;
 }
 .biography img
 {
     width: 100%;
-    padding-left: 100px;
 }
 .hire-button
 {
@@ -84,9 +87,12 @@ p
 }
 #bio-text
 {
-    padding-left: 150px;
     padding-top: 150px;
-    padding-right: 100px;
+    padding-left: 50px;
+}
+#bio-img
+{
+    padding-left: 100px;
 }
 .latest-work
 {
@@ -189,7 +195,10 @@ p
 footer p
 {
     text-align: center;
-    font-size: 17px;
-    padding-bottom: 3%;
+    font-size: 15px;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
     margin: 0;
+    color: white;
+    background: linear-gradient(45deg, #40E0D0, #4682B4);
 }
